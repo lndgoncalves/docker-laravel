@@ -7,8 +7,7 @@ cd docker-laravel
 # Criar/instalar uma imagem do composer
 docker run --rm -v $(pwd):/app composer install
 
-# Edite o arquivo docker-compose.yml
-# e altere as senhas 
+# Edite o arquivo docker-compose.yml e altere as senhas 
 
 # Suba todos os containers
 docker-compose up -d
